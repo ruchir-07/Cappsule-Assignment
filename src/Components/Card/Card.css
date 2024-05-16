@@ -1,0 +1,39 @@
+.packing-btn {
+  display: flex;
+  flex-direction: column;
+  width: 32%;
+}
+
+.selling-price {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px solid lightblue;
+  padding: 10px;
+  width: 21%;
+  height: 18%;
+  text-align: center;
+  background-color: #ffff;
+  border-radius: 6px;
+  color: #1a3842;
+  font-weight: 500;
+}
+
+.selling-price::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.no-data {
+  border-style: dashed;
+  border-width: 1px;
+  box-shadow: none;
+}
+
+.bold-text {
+  font-weight: 900;
+  margin-left: 61px;
+  font-size: 30px;
+  color: #122d30;
+}
